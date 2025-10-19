@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jijal Pickles | Authentic Pakistani Pickles</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Google Translate Element -->
+    <div id="google_translate_element"></div>
+      
+    <!-- Header with full-width image -->
+    <header>
+        <div class="header-image">
+            <h1>Jijal Pickles</h1>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="container nav-container">
+            <div class="logo left">
+                <img src="assets/logo1.png" alt="Jijal Pickles Logo">
+            </div>
+            <div class="brand-title">
+                <h2>Jijal Pickles</h2>
+            </div>
+            <div class="logo right">
+                <img src="assets/logo2.png" alt="Jijal Pickles Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="language-selector">
+                <span class="active">EN</span> | 
+                <span>اردو</span> | 
+                <span>سنڌي</span>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="about animate-section">
+        <div class="container">
+            <h2 class="section-title">Who We Are</h2>
+            <div class="about-content">
+                <p>Jijal Pickles is a family-owned business dedicated to preserving the rich culinary heritage of Pakistan through our authentic, homemade pickles. Our journey began generations ago in the heart of rural Sindh, where traditional recipes were passed down through the family.</p>
+                <p>We specialize in creating pickles using age-old techniques combined with modern hygiene standards. Each jar is handcrafted with care, using only the freshest locally sourced ingredients and no artificial preservatives. Our pickles are a perfect blend of traditional flavors and uncompromising quality.</p>
+                <p>At Jijal Pickles, we believe in preserving not just vegetables and fruits, but also the cultural heritage and family traditions that make Pakistani cuisine so special. Our commitment to quality ensures that every bite takes you on a journey through the authentic flavors of Pakistan.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products animate-section">
+        <div class="container">
+            <h2 class="section-title">Our Products</h2>
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <img src="assets/product1.jpg" alt="Mango Pickle" class="product-img">
+                    <div class="product-name">Mango Pickle</div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <img src="assets/product2.jpg" alt="Mix Achaar" class="product-img">
+                    <div class="product-name">Mix Achaar</div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <img src="assets/product3.jpg" alt="Chili Pickle" class="product-img">
+                    <div class="product-name">Chili Pickle</div>
+                </div>
+                
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <img src="assets/product4.jpg" alt="Bitter Gourd" class="product-img">
+                    <div class="product-name">Bitter Gourd</div>
+                </div>
+                
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <img src="assets/product5.jpg" alt="Garlic Pickle" class="product-img">
+                    <div class="product-name">Garlic Pickle</div>
+                </div>
+                
+                <!-- Product 6 -->
+                <div class="product-card">
+                    <img src="assets/product6.jpg" alt="Glue Berry Pickle" class="product-img">
+                    <div class="product-name">Glue Berry Pickle</div>
+                </div>
+                
+                <!-- Product 7 -->
+                <div class="product-card">
+                    <img src="assets/product7.jpg" alt="Lemon Pickle" class="product-img">
+                    <div class="product-name">Lemon Pickle</div>
+                </div>
+                
+                <!-- Product 8 -->
+                <div class="product-card">
+                    <img src="assets/product8.jpg" alt="Moringa Pickle" class="product-img">
+                    <div class="product-name">Moringa Pickle</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section animate-section">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-container">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Contact Person</h3>
+                            <p>Muhammad Juman Buriro</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Phone</h3>
+                            <p>+92 XXX XXXXXXX</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Email</h3>
+                            <p>contact@jijalpickles.com</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Delivery Form -->
+                <div class="delivery-form">
+                    <form id="deliveryForm">
+                        <div class="form-group">
+                            <label for="customerName">Customer Name</label>
+                            <input type="text" id="customerName" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="contactNumber">Contact Number</label>
+                            <input type="tel" id="contactNumber" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="productType">Product Type</label>
+                            <select id="productType" class="form-control" required>
+                                <option value="">Select a product</option>
+                                <option value="mango">Mango Pickle</option>
+                                <option value="mix">Mix Achaar</option>
+                                <option value="chili">Chili Pickle</option>
+                                <option value="bitter">Bitter Gourd</option>
+                                <option value="garlic">Garlic Pickle</option>
+                                <option value="glueberry">Glue Berry Pickle</option>
+                                <option value="lemon">Lemon Pickle</option>
+                                <option value="moringa">Moringa Pickle</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="quantity">Quantity</label>
+                            <select id="quantity" class="form-control" required>
+                                <option value="">Select quantity</option>
+                                <option value="50g">50g</option>
+                                <option value="1kg">1kg</option>
+                                <option value="2kg">2kg</option>
+                                <option value="custom">Custom</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="packs">Number of Packs</label>
+                            <select id="packs" class="form-control" required>
+                                <option value="">Select packs</option>
+                                <option value="one">One</option>
+                                <option value="two">Two</option>
+                                <option value="three">Three</option>
+                                <option value="custom">Custom</option>
+                            </select>
+                            <input type="text" id="customPacks" class="form-control custom-pack" placeholder="Enter number of packs">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="deliveryAddress">Delivery Address</label>
+                            <textarea id="deliveryAddress" class="form-control" rows="4" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn">Place Order</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="https://wa.me/923012636137" target="_blank" aria-label="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://web.facebook.com/profile.php?id=61579329005734" target="_blank" aria-label="Facebook">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="mailto:contact@jijalpickles.com" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+        
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-item">
+                    <div class="footer-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p>contact@jijalpickles.com</p>
+                </div>
+                
+                <div class="footer-item">
+                    <div class="footer-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Phone</h3>
+                    <p>+92 XXX XXXXXXX</p>
+                </div>
+                
+                <div class="footer-item">
+                    <div class="footer-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Address</h3>
+                    <p>Karachi, Pakistan</p>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 Jijal Pickles. All Rights Reserved.</p>
+                <p>Website developed by [Your Name]</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Google Translate Script -->
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="script.js"></script>
+</body>
+</html>
